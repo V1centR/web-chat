@@ -1,0 +1,30 @@
+<div class="chat_window">
+    <!--LIVE CHAT MESSAGES############ -->
+    <ul class="messages">
+
+        <span *ngFor="let message of messageList">
+            <li class="message appeared {{message.typeMsg}} ">
+                <div class="avatar"></div>
+                <div class="text_wrapper">
+                    <span>{{message.nome}}</span>
+                    <div class="text">{{message.message}}</div>
+                </div>
+                
+            </li>
+        </span>
+        
+
+    </ul>
+    <!--LIVE CHAT MESSAGES############ -->
+    
+    <div class="bottom_wrapper clearfix">
+       <div class="message_input_wrapper"><input class="message_input" placeholder="Digite sua mensagem..." /></div>
+       <div class="send_message">
+          <div class="icon"></div>
+          <div class="text">Enviar</div>
+          <button mat-button color="primary" (click)="sendMessage()">Primary</button>
+       </div>
+    </div>
+ </div>
+
+ 

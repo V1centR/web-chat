@@ -1,0 +1,8 @@
+{
+	"livechat": [
+	{"id":1, "nome":"Vicente C","dateTime":"01:02 17-11-2021", "avatar":"img123.jpg","message":"Olá bom dia, tudo bem João"},
+	{"id":888, "nome":"João Silva","dateTime":"01:04 17-11-2021", "avatar":"img123.jpg","message":"Bom dia! tudo bom por aqui."},
+	{"id":1, "nome":"Vicente C","dateTime":"01:02 17-11-2021", "avatar":"img123.jpg","message":"Aquele job nosso já esta registrado?"},
+	{"id":888, "nome":"João Silva","dateTime":"01:02 17-11-2021", "avatar":"img123.jpg","message":"Sim, já esta pronto."}
+	]
+}
